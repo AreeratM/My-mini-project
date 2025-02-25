@@ -50,4 +50,5 @@ pizza_4.head(3)
     * จำนวน pizza ที่ขายทั้งปี 49,574 ถาด
     * ร้านค้าขาย pizza ทั้งหมด 4 ประเภท
     * ร้านค้ามีเมนู pizza ทั้งหมด 32 เมนู
-![คำอธิบายรูปภาพ]![image](https://github.com/user-attachments/assets/53e71352-3268-4ae9-bf8c-7c1185f1b3c6)
+      
+![image](https://github.com/user-attachments/assets/53e71352-3268-4ae9-bf8c-7c1185f1b3c6)
