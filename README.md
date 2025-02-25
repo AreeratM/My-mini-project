@@ -52,3 +52,6 @@ pizza_4.head(3)
     * ร้านค้ามีเมนู pizza ทั้งหมด 32 เมนู
       
 ![image](https://github.com/user-attachments/assets/53e71352-3268-4ae9-bf8c-7c1185f1b3c6)
+
+### ตั้งคำถามเพื่อหาคำตอบ พร้อมมองหา insight
+### Question 1: ยอดขายร้าน pizza น่าจะสูงที่สุดในเดือนธันวาคมใช่หรือไม่
