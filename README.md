@@ -20,34 +20,41 @@ This is a small project for learning and practicing using hands-on data manageme
       order_details = pd.read_csv('/content/order_details.csv')
       order_details.head(3)
       order_details.isnull().sum()       
-     ```
-     
+     ```     
      จากการสำรวจพบว่า : ทุก data frame ไม่มีค่า missing value และทุก dataset มี primary key และ foreign key ที่เชื่อมข้อมูลเข้าด้วยกันได้จึงเชื่อมข้อมูลเข้าเป็น data frame เดียว
      
    * เชื่อมข้อมูล (join data) : ด้วย method : merge    
  	 
-```python
-pizza_1 = order_details.merge(orders, left_on='order_id', right_on='order_id')
-pizza_2 = pizza_1.merge(pizzas, left_on='pizza_id', right_on='pizza_id')
-pizza_4 = pizza_2.merge(pizza_types, left_on='pizza_type_id', right_on='pizza_type_id')
-pizza_4.head(3)
-```
+    ```python
+      pizza_1 = order_details.merge(orders, left_on='order_id', right_on='order_id')
+      pizza_2 = pizza_1.merge(pizzas, left_on='pizza_id', right_on='pizza_id')
+      pizza_4 = pizza_2.merge(pizza_types, left_on='pizza_type_id', right_on='pizza_type_id')
+      pizza_4.head(3)
+    ```
 - จัดการ Data frame ตามความต้องการด้วย method ต่างๆ เช่น rename, drop เป็นต้น
     * เปลี่ยนชื่อ column
       ```python
-
+      # Rename column name
+      pizza_4.rename(columns= {'date' : 'order_date',
+                         'time' : 'order_time',
+                         'price' : 'unit_price',
+                         'size' : 'pizza_size',}, inplace=True)
       ```
     * ลบ column ที่ไม่ต้องการ 
       ```python
+      # Drop column
+      pizza_4 = pizza_4.drop(columns=['pizza_type_id','order_details_id'])
 
       ```
     * สร้าง column ใหม่ตามต้องการ
       ```python
-
+      # Create new colum
+      pizza_4['total_price'] = pizza_4['quantity'] * pizza_4['unit_price']
       ```
-    * บันทึก data frame ที่ทำความสะอาดข้อมูลเรียบร้อยแล้วในชื่อ “pizza_transaction” เพื่อสะดวกในการทำกระบวนการถัดไป
+    * บันทึก data frame ที่ทำความสะอาดข้อมูลเรียบร้อยแล้วในชื่อ “**pizza_transaction**” เพื่อสะดวกในการทำกระบวนการถัดไป
       ```python
-
+      # Save New Data Frame
+      pizza_4.to_csv('pizza_transaction.csv', index=False)
       ```
       
 ## วิธีการดำเนินการ : 2. ทำ Visualization เพื่อหาคำตอบหรือ Insight ตามสมมติฐานที่คาดการณ์ไว้
