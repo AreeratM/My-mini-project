@@ -51,8 +51,7 @@ pizza_4.head(3)
     * ร้านค้าขาย pizza ทั้งหมด 4 ประเภท
     * ร้านค้ามีเมนู pizza ทั้งหมด 32 เมนู
       
-### image card chart
-
+[![card-chart.png](https://i.postimg.cc/bNcp8wGs/card-chart.png)](https://postimg.cc/bdTK989h)
 
   ### ตั้งคำถามเพื่อหาคำตอบ พร้อมมองหา insight
 ### Question 1: ยอดขายร้าน pizza น่าจะสูงที่สุดในเดือนธันวาคมใช่หรือไม่
@@ -91,6 +90,7 @@ pizza_4.head(3)
 3. The Hawaiian Pizza ตลอดทั้งปีขายได้เป็นจำนวน 2,370 ถาด
 4. The Pepperoni Pizza ตลอดทั้งปีขายได้เป็นจำนวน 2,369 ถาด
 5. The Thai Chicken Pizza ตลอดทั้งปีขายได้เป็นจำนวน 2,315 ถาด
+   
 ซึ่งแสดงให้เห็นว่า Hawaiian Pizza เป็น 1 ใน 5 อันดับของ pizza ที่ขายได้สูงสุด จึงเป็นหนึ่งในเมนูยอดนิยมของลูกค้าในปีนี้ และสามารถใช้ข้อมูลในการจัดทำเมนูแนะนำของร้านค้าได้
 
 จากกราฟที่ 8 : แสดงจำนวน pizza ที่ขายได้ต่ำสุด 5 อันดับ ดังนี้
@@ -99,6 +99,7 @@ pizza_4.head(3)
 3. The Calabrese Pizza ตลอดทั้งปีขายได้เป็นจำนวน 927 ถาด
 4. The Mediterranean Pizza ตลอดทั้งปีขายได้เป็นจำนวน 923 ถาด
 5. The Brie Carre Pizza ตลอดทั้งปีขายได้เป็นจำนวน 480 ถาด
+
 จากข้อมูลดังกล่าวสามารถนำไปใช้ในการวิเคราะห์ในด้านคุณภาพ ราคา ความต้องการของลูกค้าหรือความล้าสมัยของ Pizza ได้
 
 [![Chart-7-8-popular-menu.png](https://i.postimg.cc/pLJSw28b/Chart-7-8-popular-menu.png)](https://postimg.cc/Hrj351BB)
