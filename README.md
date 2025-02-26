@@ -1,7 +1,8 @@
 # My-mini-project
 This is a small project for learning and practicing using hands-on data management in DataScience
-## เรื่อง ( Subject ) : Pizza Sales Insights, What the Data Tells Us
 
+## เรื่อง ( Subject ) : Pizza Sales Insights, What the Data Tells Us
+**รายละเอียดชุดข้อมูล ( Dataset )** : เป็นข้อมูลเกี่ยวกับการขายของร้าน pizza แหล่งหนึ่งซึ่งมีข้อมูลเพียง 1 ปี โดยจะมีข้อมูลวันและเวลาในการสั่งซื้อแต่ละครั้ง พร้อมรายละเอียดเพิ่มเติมเกี่ยวกับประเภท ขนาด ปริมาณ ราคา และส่วนผสม
 
 
 ## วิธีการดำเนินการ
@@ -116,6 +117,6 @@ pizza_4.head(3)
 
 [![Chart-11-Transaction-peak.png](https://i.postimg.cc/7Y0PT2v3/Chart-11-Transaction-peak.png)](https://postimg.cc/7fPrFbZh)
 
-## แหล่งที่มาของข้อมูล ( Data Source ) : Maven Analytics  website :
-(https://www.mavenanalytics.io/dataplayground?order=date_added%2Cdesc&search=pizza)
+### แหล่งที่มาของข้อมูล ( Data Source ) : Maven Analytics  website :
+https://www.mavenanalytics.io/dataplayground?order=date_added%2Cdesc&search=pizza
 
