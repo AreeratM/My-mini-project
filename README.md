@@ -13,7 +13,7 @@ This is a small project for learning and practicing using hands-on data manageme
 ## วิธีการดำเนินการที่ 1 : จัดการและทำความสะอาดข้อมูลกับเพื่อให้ได้ data frame ที่ต้องการ
 ดำเนินการตามไฟล์งานที่ 1 : "**CleaningCode_PizzaProject**" โดยมีหลักการโดยสรุปดังนี้
 
-- เชื่อมข้อมูลเข้าหากัน ( join data ) : เนื่องจากเรามี dataset ย่อยที่ได้จากแหล่งข้อมูล ดังนี้ order_details.csv, orders.csv, pizza_types.csv และ pizzas.csv (โดยรายละเอียดของข้อมูลสามารถดูได้จากไฟล์ Meta Data.)
+- เชื่อมข้อมูลเข้าหากัน ( join data ) : เนื่องจากเรามี dataset ย่อยที่ได้จากแหล่งข้อมูล ดังนี้ order_details.csv, orders.csv, pizza_types.csv และ pizzas.csv (โดยรายละเอียดของข้อมูลสามารถดูได้จากไฟล์ data_dictionary.)
    * อ่าน data frame ของ dataset ย่อยทั้ง 4 dataset เพื่อตรวจสอบข้อมูลเบื้องต้น เช่น ตรวจสอบ missing value, หา primary key และ foreign key สำหรับกระบวนการเชื่อมข้อมูลต่อไป
      ``` python
      # Read dataset and Missing Value checking 
