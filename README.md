@@ -100,7 +100,7 @@ This is a small project for learning and practicing using hands-on data manageme
 
 [![Chart-6-Top-Pizza.png](https://i.postimg.cc/269RPCs8/Chart-6-Top-Pizza.png)](https://postimg.cc/YGFsFB2J)
 
-### Question 3: Hawaiian pizza น่าจะเป็นหนึ่งในเมนูยอดนิยม
+### Question 3: Hawaiian pizza น่าจะเป็นหนึ่งในเมนูยอดนิยมใช่หรือไม่
 จากกราฟที่ 7 : แสดงจำนวน pizza ที่ขายได้สูงสุด 5 อันดับแรก ดังนี้
 1. The Classic Deluxe Pizza ตลอดทั้งปีขายได้เป็นจำนวน 2,416 ถาด 
 2. The Barbecue Chicken Pizza ตลอดทั้งปีขายได้เป็นจำนวน 2,372 ถาด
@@ -121,14 +121,14 @@ This is a small project for learning and practicing using hands-on data manageme
 
 [![Chart-7-8-popular-menu.png](https://i.postimg.cc/pLJSw28b/Chart-7-8-popular-menu.png)](https://postimg.cc/Hrj351BB)
 
-### Question 4: ลูกค้าน่าจะชอบสั่งซื้อ pizza ในวันศุกร์ช่วงเวลาเย็น
+### Question 4: ลูกค้าน่าจะชอบสั่งซื้อ pizza ในวันศุกร์ช่วงเวลาเย็นใช่หรือไม่
 จากกราฟที่ 9 : พบว่าวันศุกร์เป็นวันที่ขาย pizza ได้มากที่สุด โดยตลอดทั้งปีวันศุกร์ขาย pizza ได้เป็นจำนวน 8,106 ถาด รองลงมาเป็นวันเสาร์ ขายได้จำนวน 7,355 ถาด และวันพฤหัสบดีขายได้จำนวน 7,323 ถาด ตามลำดับ 
 
 จากกราฟที่ 10 : แสดงจำนวน pizza ที่ขายได้ในวันศุกร์ตามช่วงเวลาตั้งแต่ 9 โมงเช้าไปจนถึงเที่ยงคืน พบว่ามี 2 ช่วงเวลาที่มีขาย pizza ได้เป็นจำนวนมากคือคือช่วงเที่ยงถึงบ่ายโมง [12:00PM – 13:00PM] และช่วงห้าโมงเย็นถึงหนึ่งทุ่ม [17:00PM – 19:00PM]
 
 [![Chart-9-10-Transaction-peak-friday.png](https://i.postimg.cc/sfBgsLw0/Chart-9-10-Transaction-peak-friday.png)](https://postimg.cc/5jVVmscw)
 
-### Question 5: โดยภาพรวมลูกค้าน่าจะชอบสั่ง pizza ในช่วงเวลาเย็น
+### Question 5: โดยภาพรวมลูกค้าน่าจะชอบสั่ง pizza ในช่วงเวลาเย็นใช่หรือไม่
 จากกราฟที่ 11 : แสดงจำนวน pizza ที่ขายได้ โดยแบ่งตามช่วงเวลาตั้งแต่ 9 โมงเช้าไปจนถึงเที่ยงคืน พบว่ามี 2 ช่วงเวลาที่มียอดขายค่อนข้างสูงคือช่วงเที่ยงถึงบ่ายโมง [12:00PM – 13:00PM] และช่วงห้าโมงเย็นถึงหนึ่งทุ่ม [17:00PM – 19:00PM]
 
 [![Chart-11-Transaction-peak.png](https://i.postimg.cc/7Y0PT2v3/Chart-11-Transaction-peak.png)](https://postimg.cc/7fPrFbZh)
