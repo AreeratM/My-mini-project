@@ -70,7 +70,7 @@ pizza_4.head(3)
 
 ### Question 3: Hawaiian pizza น่าจะเป็นหนึ่งในเมนูยอดนิยม
 
-![image](https://github.com/user-attachments/assets/55b08f19-5be7-4e31-900b-5eba4b5c52dc)
+[Chart-7-8-popular-menu.png](https://postimg.cc/Hrj351BB)
 
 ### Question 4: ลูกค้าน่าจะชอบสั่งซื้อ pizza ในวันศุกร์ช่วงเวลาเย็น
 
