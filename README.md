@@ -2,7 +2,7 @@
 This is a small project for learning and practicing using hands-on data management in DataScience
 ## เรื่อง ( Subject ) : Pizza Sales Insights, What the Data Tells Us
 
-### แหล่งที่มาของข้อมูล ( Data Source ) : Maven Analytics  website :
+
 
 ## วิธีการดำเนินการ
 แบ่งการดำเนินการเป็น 2 วิธีการ คือ
@@ -41,7 +41,7 @@ pizza_4.head(3)
       ```
       
 ## วิธีการดำเนินการ : 2. ทำ Visualization เพื่อหาคำตอบหรือ Insight ตามสมมติฐานที่คาดการณ์ไว้
-ซึ่งนำเนินการตามไฟล์งานที่ 2 : “Github_miniproject_pizza” โดยมีหลักการโดยสรุปดังนี้
+ซึ่งนำเนินการตามไฟล์งานที่ 2 : "**PizzaSale_Analysis**" โดยมีหลักการโดยสรุปดังนี้
 ### สรุปภาพรวมของร้านขาย pizza
 * จากข้อมูลภาพรวมร้าน pizza ปี 2015 ที่แสดงใน card chart ทำให้ได้ information ดังนี้:
     * ยอดขายทั้งปีรวมเป็นเงิน 817,860 ดอลลาร์
@@ -115,4 +115,7 @@ pizza_4.head(3)
 จากกราฟที่ 11 : แสดงจำนวน pizza ที่ขายได้ โดยแบ่งตามช่วงเวลาตั้งแต่ 9 โมงเช้าไปจนถึงเที่ยงคืน พบว่ามี 2 ช่วงเวลาที่มียอดขายค่อนข้างสูงคือช่วงเที่ยงถึงบ่ายโมง [12:00PM – 13:00PM] และช่วงห้าโมงเย็นถึงหนึ่งทุ่ม [17:00PM – 19:00PM]
 
 [![Chart-11-Transaction-peak.png](https://i.postimg.cc/7Y0PT2v3/Chart-11-Transaction-peak.png)](https://postimg.cc/7fPrFbZh)
+
+## แหล่งที่มาของข้อมูล ( Data Source ) : Maven Analytics  website :
+(https://www.mavenanalytics.io/dataplayground?order=date_added%2Cdesc&search=pizza)
 
