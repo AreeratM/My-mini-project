@@ -65,3 +65,14 @@ pizza_4.head(3)
 
 ![image](https://github.com/user-attachments/assets/3936aae9-31b8-4161-93f6-a51a4a388b6b)
 
+### Question 2: ยอดขายร้านน่าจะมาจาก pizza ประเภท Classic มากที่สุดใช่หรือไม่
+
+
+### Question 3: Hawaiian pizza น่าจะเป็นหนึ่งในเมนูยอดนิยม
+
+![image](https://github.com/user-attachments/assets/55b08f19-5be7-4e31-900b-5eba4b5c52dc)
+
+### Question 4: ลูกค้าน่าจะชอบสั่งซื้อ pizza ในวันศุกร์ช่วงเวลาเย็น
+
+
+### Question 5: โดยภาพรวมลูกค้าน่าจะชอบสั่ง pizza ในช่วงเวลาเย็น
