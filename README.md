@@ -81,7 +81,7 @@ This is a small project for learning and practicing using hands-on data manageme
 
 จากกราฟที่ 1 : ไม่ได้ให้ข้อมูลเราเพียงแค่เดือนธันวาคมมียอดขายที่ต่ำกว่าเดือนกรกฎาคม เท่านั้น แต่ยังทำให้เราเห็นข้อมูลรายได้ในเดือนที่ต่ำสุด และแสดงให้เห็นถึงข้อมูลยอดขายในแต่ละเดือน รวมถึงพอจะเปรียบเทียบคร่าวๆได้ว่ายอดขายเดือนไหนสูงกว่าเดือนไหนเป็นต้น
 
-[![Chart-1-monthly-sales.png](https://i.postimg.cc/pdt2ZXHw/Chart-1-monthly-sales.png)](https://postimg.cc/5Xnd9Jjg)
+[![Chart1.png](https://i.postimg.cc/9fbfGd3P/Chart1.png)](https://postimg.cc/2qqmYBS3)
 
 จากกราฟที่ 2 : เป็นกราฟที่แสดงข้อมูลยอดสั่งซื้อ pizza ที่ขายได้ในแต่ละเดือนซึ่งสอดคล้องกับกราฟยอดขายตามที่แสดงไปก่อนหน้า
 
@@ -100,7 +100,7 @@ This is a small project for learning and practicing using hands-on data manageme
 
 จากกราฟที่ 6 : แสดงจำนวน pizza ที่ขายได้แยกตามประเภท พบว่า Pizza ประเภท Classic มีจำนวนpizza ที่ขายได้มากที่สุดโดยคิดเป็นจำนวน 14,579 ถาด, รองลงมาเป็น pizza ประเภท Supreme คิดเป็นจำนวน 11,777 ถาด, pizza ประเภท Chicken คิดเป็นจำนวน 11,449 ถาด และ pizza ประเภท Veggie เป็นจำนวน 10,815 ถาด ตามลำดับ
 
-[![Chart-6-Top-Pizza.png](https://i.postimg.cc/269RPCs8/Chart-6-Top-Pizza.png)](https://postimg.cc/YGFsFB2J)
+[![Chart6.png](https://i.postimg.cc/G2ShfbmH/Chart6.png)](https://postimg.cc/ftmNtnXN)
 
 ### Question 3: Hawaiian pizza น่าจะเป็นหนึ่งในเมนูยอดนิยมใช่หรือไม่
 จากกราฟที่ 7 : แสดงจำนวน pizza ที่ขายได้สูงสุด 5 อันดับแรก ดังนี้
